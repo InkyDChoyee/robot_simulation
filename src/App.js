@@ -12,6 +12,12 @@ function App() {
     { type: "chime", position: { x: 8, y: 2 } },
   ]);
 
+  const handleMoveRobot = async () => {
+    const path = await findPath({});
+    setRobotPosition(position);
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+  };
+
   return (
     <div className="App">
       <Building>
@@ -29,6 +35,7 @@ function App() {
           </div>
         ))}
       </Building>
+      <button onClick={handleMoveRobot}>Move Robot</button>
     </div>
   );
 }
