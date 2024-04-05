@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Building>
-        <Robot />
+        <Robot position={robotPosition} />
       </Building>
     </div>
   );
