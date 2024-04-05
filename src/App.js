@@ -16,6 +16,18 @@ function App() {
     <div className="App">
       <Building>
         <Robot position={robotPosition} />
+        {devices.map((device, index) => (
+          <div
+            key={index}
+            style={{
+              position: "absolute",
+              left: device.position.x * 50,
+              top: device.position.y * 50,
+            }}
+          >
+            {device.type}
+          </div>
+        ))}
       </Building>
     </div>
   );
