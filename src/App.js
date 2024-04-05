@@ -12,7 +12,13 @@ function App() {
     { type: "chime", position: { x: 8, y: 2 } },
   ]);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Building>
+        <Robot />
+      </Building>
+    </div>
+  );
 }
 
 export default App;
