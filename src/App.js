@@ -60,26 +60,32 @@ function RobotSimulation() {
           <Building>
             <Robot position={robotPosition} />
             <div className="bell" onClick={handleMoveToBell}>
-              <img src={process.env.PUBLIC_URL + bellImg} alt="bell" />
+              <img src={`${process.env.PUBLIC_URL}` + bellImg} alt="bell" />
             </div>
             <div className="elevator" onClick={handleMoveToElevator}>
-              <img src={process.env.PUBLIC_URL + elevatorImg} alt="elevator" />
+              <img
+                src={`${process.env.PUBLIC_URL}` + elevatorImg}
+                alt="elevator"
+              />
             </div>
             <div className="chime" onClick={handleMoveToChime}>
-              <img src={process.env.PUBLIC_URL + chimeImg} alt="chime" />
+              <img src={`${process.env.PUBLIC_URL}` + chimeImg} alt="chime" />
             </div>
           </Building>
           <section>
             <div className="subBell" onClick={handleMoveToBell}>
-              <img src={process.env.PUBLIC_URL + bellImg} alt="bell" />{" "}
+              <img src={`${process.env.PUBLIC_URL}` + bellImg} alt="bell" />{" "}
               <span>호출벨</span>
             </div>
             <div className="subElevator" onClick={handleMoveToElevator}>
-              <img src={process.env.PUBLIC_URL + elevatorImg} alt="elevator" />{" "}
+              <img
+                src={`${process.env.PUBLIC_URL}` + elevatorImg}
+                alt="elevator"
+              />{" "}
               <span>엘레베이터</span>
             </div>
             <div className="subChime" onClick={handleMoveToChime}>
-              <img src={process.env.PUBLIC_URL + chimeImg} alt="chime" />
+              <img src={`${process.env.PUBLIC_URL}` + chimeImg} alt="chime" />
               <span>차임벨</span>
             </div>
             <button onClick={handleMoveRobot}>모든 경유지 경유하기</button>
