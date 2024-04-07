@@ -1,5 +1,5 @@
 import React from "react";
-import robot from "../resources/img/robot.png";
+const robot = "/resources/robot.png";
 
 const Robot = ({ position }) => {
   return (

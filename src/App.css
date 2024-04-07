@@ -53,7 +53,7 @@ nav {
     border: 1px solid #ccc;
     border-radius: 10px;
     margin: 50px;
-    background-image: url("./resources/img/building.png");
+    background-image: url("../public/resources/building.png");
     background-size: cover;
 }
 
