@@ -1,18 +1,14 @@
 {
   "files": {
     "main.css": "/robot_simulation/static/css/main.8b5e2fba.css",
-    "main.js": "/robot_simulation/static/js/main.712d206b.js",
-    "static/media/robot.png": "/robot_simulation/static/media/robot.7d5e6a4d42d7764adba3.png",
+    "main.js": "/robot_simulation/static/js/main.960a78b3.js",
     "static/media/building.png": "/robot_simulation/static/media/building.6675fbc3e405ecfd8719.png",
-    "static/media/chime.png": "/robot_simulation/static/media/chime.7bbdb3b450a5d5db6ce6.png",
-    "static/media/bell.png": "/robot_simulation/static/media/bell.2bd9f08d426026ba0ece.png",
-    "static/media/elevator.png": "/robot_simulation/static/media/elevator.ae0656f59411e9c16779.png",
     "index.html": "/robot_simulation/index.html",
     "main.8b5e2fba.css.map": "/robot_simulation/static/css/main.8b5e2fba.css.map",
-    "main.712d206b.js.map": "/robot_simulation/static/js/main.712d206b.js.map"
+    "main.960a78b3.js.map": "/robot_simulation/static/js/main.960a78b3.js.map"
   },
   "entrypoints": [
     "static/css/main.8b5e2fba.css",
-    "static/js/main.712d206b.js"
+    "static/js/main.960a78b3.js"
   ]
 }
