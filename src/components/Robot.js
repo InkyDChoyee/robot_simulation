@@ -10,7 +10,7 @@ const Robot = ({ position }) => {
         top: position.y * 50 - 25,
       }}
     >
-      <img src={robot} alt="robot" />
+      <img src={process.env.PUBLIC_URL + robot} alt="robot" />
     </div>
   );
 };
